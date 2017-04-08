@@ -4,6 +4,8 @@ import (
 	"fmt"
 )
 
+var c, python, java bool
+
 func add(x, y int) int {
 	return x + y
 }
@@ -22,4 +24,7 @@ func main() {
 	a, b := swap("hello", "world")
 	fmt.Println(a, b)
 	fmt.Println(split(17))
+
+	var i int
+	fmt.Println(i, c, python, java)
 }
