@@ -4,8 +4,6 @@ import (
 	"fmt"
 )
 
-var i, j int = 1, 2
-
 func add(x, y int) int {
 	return x + y
 }
@@ -21,10 +19,8 @@ func swap(x, y string) (string, string) {
 }
 
 func main() {
-	a, b := swap("hello", "world")
-	fmt.Println(a, b)
-	fmt.Println(split(17))
-
-	var c, python, java = true, false, "no!"
-	fmt.Println(i, j, c, python, java)
+	var i, j int = 1, 2
+	k := 3
+	c, python, java := true, false, "no!"
+	fmt.Println(i, j, k, c, python, java)
 }
